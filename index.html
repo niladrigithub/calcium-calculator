@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcium Calculator</title>
+</head>
+<body>
+
+    <div class="calculator-container">
+        <h1>Calcium Calculator</h1>
+
+        <!-- Food Item Input Fields -->
+        <label for="milk">Milk (mg):</label>
+        <input type="number" id="milk" placeholder="Enter quantity" />
+
+        <label for="cheese">Cheese (mg):</label>
+        <input type="number" id="cheese" placeholder="Enter quantity" />
+
+        <label for="yogurt">Yogurt (mg):</label>
+        <input type="number" id="yogurt" placeholder="Enter quantity" />
+
+        <!-- Total Calcium Display -->
+        <div id="total-calcium">
+            <strong>Total Calcium Intake:</strong> <span id="calcium-amount">0 mg</span>
+        </div>
+
+        <!-- Calculate Button -->
+        <button onclick="calculateTotalCalcium()">Calculate</button>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>
